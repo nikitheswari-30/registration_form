@@ -1,13 +1,16 @@
+body{
+    background-color: rgb(170, 216, 252);
+}
 .main{
     padding: 20px;
     font-family: Arial;
-    box-shadow: 5px  5px 7px 5px #8888;
+    box-shadow: 5px  5px 7px 5px #90a0d4 ;
 }
 
 .main h1{
-    font-size: 36px;
+    font-size: 50px;
     text-align: center;
-    font-family: Arial;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
@@ -16,18 +19,18 @@ input{
     width: 100%;
     font-size: 20px;
     padding: 12px 20px;
-    margin: 8px;
-    border: none;
-    border-bottom: 2px solid #764776;
+    margin: 5px;
+    border-radius: none;
+    border-bottom: 2px solid hotpink;
 
 }
 
 input[type=submit]{
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    background-color: #764776;
+    background-color: #411291;
     border:none;
-    color: white;
+    color: rgb(249, 243, 243);
     padding: 16px 32px;
     margin: 4px 2px;
     border-radius: 10px;
